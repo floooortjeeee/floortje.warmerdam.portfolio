@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floortje Warmerdam Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-content">
+            <!-- Logo Container -->
+            <div class="logo-container">
+                <svg width="209" height="49" viewBox="0 0 209 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M6.68375 23.1474L5.28311 24.5726L0.491453 19.781C0.147436 19.4369 0 19.0438 0 18.5769V5.99572C0 5.52884 0.147436 5.13568 0.491453 4.79166L5.28311 0L6.68375 1.42521L2.6047 5.47969C2.26068 5.82371 2.08867 6.26602 2.08867 6.70833V17.8397C2.08867 18.3066 2.26068 18.7489 2.6047 19.0684L6.68375 23.1474Z"
+                        fill="#232425" />
+                    <path
+                        d="M20.6026 12.704H12.2233V19.8301H9.98724V3.44017H20.6026V5.60256H12.2233V10.5417H20.6026V12.704Z"
+                        fill="#232425" />
+                    <path d="M35.1805 19.8301H24.5897V3.44017H26.8258V17.6677H35.1805V19.8301Z" fill="#232425" />
+                    <path
+                        d="M51.1089 16.0705C51.1089 16.5374 50.9124 16.9551 50.5929 17.2991L48.578 19.3141C48.2339 19.6581 47.7916 19.8301 47.3493 19.8301H41.2799C40.813 19.8301 40.3953 19.6581 40.0513 19.3141L38.0363 17.2991C37.6923 16.9551 37.5203 16.5374 37.5203 16.0705V7.19978C37.5203 6.7329 37.6923 6.31516 38.0363 5.97115L40.0513 3.95619C40.3953 3.61218 40.813 3.44017 41.2799 3.44017H47.3248C47.7916 3.44017 48.2339 3.61218 48.5534 3.95619L50.5683 5.97115C50.9124 6.31516 51.1089 6.7329 51.1089 7.19978V16.0705ZM48.8483 15.7756L48.8728 7.49465C48.8728 7.37179 48.7991 7.24892 48.7254 7.15063L47.3248 5.74999C47.2265 5.6517 47.1036 5.60256 46.9807 5.60256H41.6485C41.5011 5.60256 41.4028 5.6517 41.3045 5.74999L39.9038 7.15063C39.8055 7.24892 39.7564 7.37179 39.7564 7.49465V15.7756C39.7564 15.8985 39.8055 16.0214 39.9038 16.1196L41.3045 17.5203C41.4028 17.6186 41.5011 17.6677 41.6485 17.6677H46.9562C47.1036 17.6677 47.2265 17.6186 47.3002 17.5203L48.7008 16.1196C48.7991 16.0214 48.8483 15.8985 48.8483 15.7756Z"
+                        fill="#232425" />
+                    <path
+                        d="M68.687 16.0705C68.687 16.5374 68.4904 16.9551 68.171 17.2991L66.156 19.3141C65.812 19.6581 65.3697 19.8301 64.9274 19.8301H58.858C58.3911 19.8301 57.9733 19.6581 57.6293 19.3141L55.6144 17.2991C55.2704 16.9551 55.0983 16.5374 55.0983 16.0705V7.19978C55.0983 6.7329 55.2704 6.31516 55.6144 5.97115L57.6293 3.95619C57.9733 3.61218 58.3911 3.44017 58.858 3.44017H64.9028C65.3697 3.44017 65.812 3.61218 66.1315 3.95619L68.1464 5.97115C68.4904 6.31516 68.687 6.7329 68.687 7.19978V16.0705ZM66.4263 15.7756L66.4509 7.49465C66.4509 7.37179 66.3772 7.24892 66.3035 7.15063L64.9028 5.74999C64.8045 5.6517 64.6817 5.60256 64.5588 5.60256H59.2266C59.0791 5.60256 58.9808 5.6517 58.8825 5.74999L57.4819 7.15063C57.3836 7.24892 57.3345 7.37179 57.3345 7.49465V15.7756C57.3345 15.8985 57.3836 16.0214 57.4819 16.1196L58.8825 17.5203C58.9808 17.6186 59.0791 17.6677 59.2266 17.6677H64.5342C64.6817 17.6677 64.8045 17.6186 64.8783 17.5203L66.2789 16.1196C66.3772 16.0214 66.4263 15.8985 66.4263 15.7756Z"
+                        fill="#232425" />
+                    <path
+                        d="M86.6337 19.8301H83.9307L79.2619 13.0972C79.139 12.9498 78.9916 12.8761 78.8441 12.8761H75.6006V19.8301H73.3644V3.44017H82.2843C82.7512 3.44017 83.1443 3.61218 83.4638 3.93162L84.9136 5.38141C85.2576 5.72542 85.4542 6.11858 85.4542 6.61004V9.70619C85.4542 10.1976 85.2576 10.6154 84.9381 10.9348L83.4884 12.3846C83.1689 12.704 82.7512 12.8761 82.3089 12.8761H81.6946L86.6337 19.8301ZM83.1935 9.41131L83.2181 6.90491C83.2181 6.75747 83.1443 6.63461 83.0706 6.56089L82.2597 5.74999C82.1614 5.6517 82.0632 5.60256 81.9157 5.60256H75.6006V10.7137H81.8911C82.0386 10.7137 82.1614 10.6645 82.2352 10.5662L83.0461 9.75533C83.1443 9.65704 83.1935 9.55875 83.1935 9.41131Z"
+                        fill="#232425" />
+                    <path d="M100.608 5.60256H95.6931V19.8301H93.457V5.60256H88.5425V3.44017H100.608V5.60256Z"
+                        fill="#232425" />
+                    <path
+                        d="M112.121 16.0705C112.121 16.5374 111.949 16.9551 111.605 17.2991L109.59 19.3141C109.246 19.6581 108.828 19.8301 108.361 19.8301H104.848C104.381 19.8301 103.963 19.6581 103.619 19.3141L101.309 17.0043L102.833 15.4808L104.872 17.5203C104.97 17.6186 105.069 17.6677 105.216 17.6677H107.993C108.14 17.6677 108.239 17.6186 108.337 17.5203L109.737 16.1196C109.836 16.0214 109.885 15.8985 109.885 15.7756V5.60256H105.044V3.44017H112.121V16.0705Z"
+                        fill="#232425" />
+                    <path
+                        d="M127.715 19.8301H117.124V3.44017H127.715V5.60256H119.36V10.5417H127.715V12.704H119.36V17.6677H127.715V19.8301Z"
+                        fill="#232425" />
+                    <path
+                        d="M58.7941 26.9889L55.2802 43.3789H52.2086L49.3336 29.3233L46.4586 43.3789H43.4116L39.9223 26.9889H42.2076L45.0089 41.1182L47.8347 26.9889H51.0046L53.7813 41.1182L56.6317 26.9889H58.7941Z"
+                        fill="#232425" />
+                    <path
+                        d="M75.5824 43.3789H73.2971L71.6262 38.9804H64.279L62.608 43.3789H60.3719L66.5151 26.9889H69.4638L75.5824 43.3789ZM70.8153 36.9163L67.9649 29.0039L65.0653 36.9163H70.8153Z"
+                        fill="#232425" />
+                    <path
+                        d="M92.1555 43.3789H89.4525L84.7837 36.646C84.6608 36.4985 84.5134 36.4248 84.3659 36.4248H81.1224V43.3789H78.8862V26.9889H87.8061C88.273 26.9889 88.6662 27.1609 88.9856 27.4804L90.4354 28.9302C90.7794 29.2742 90.976 29.6673 90.976 30.1588V33.2549C90.976 33.7464 90.7794 34.1641 90.4599 34.4836L89.0102 35.9334C88.6907 36.2528 88.273 36.4248 87.8307 36.4248H87.2164L92.1555 43.3789ZM88.7153 32.9601L88.7399 30.4537C88.7399 30.3062 88.6662 30.1834 88.5924 30.1097L87.7815 29.2988C87.6832 29.2005 87.585 29.1513 87.4375 29.1513H81.1224V34.2624H87.4129C87.5604 34.2624 87.6832 34.2133 87.757 34.115L88.5679 33.3041C88.6661 33.2058 88.7153 33.1075 88.7153 32.9601Z"
+                        fill="#232425" />
+                    <path
+                        d="M112.051 43.3789H109.864V29.0776L105.22 43.3789H102.96L98.3399 29.0776V43.3789H96.1284V26.9889H99.7897L104.09 40.3073L108.39 26.9889H112.051V43.3789Z"
+                        fill="#232425" />
+                    <path
+                        d="M127.993 43.3789H117.402V26.9889H127.993V29.1513H119.638V34.0904H127.993V36.2528H119.638V41.2165H127.993V43.3789Z"
+                        fill="#232425" />
+                    <path
+                        d="M145.922 43.3789H143.219L138.55 36.646C138.427 36.4985 138.279 36.4248 138.132 36.4248H134.888V43.3789H132.652V26.9889H141.572C142.039 26.9889 142.432 27.1609 142.752 27.4804L144.201 28.9302C144.545 29.2742 144.742 29.6673 144.742 30.1588V33.2549C144.742 33.7464 144.545 34.1641 144.226 34.4836L142.776 35.9334C142.457 36.2528 142.039 36.4248 141.597 36.4248H140.982L145.922 43.3789ZM142.481 32.9601L142.506 30.4537C142.506 30.3062 142.432 30.1834 142.358 30.1097L141.548 29.2988C141.449 29.2005 141.351 29.1513 141.204 29.1513H134.888V34.2624H141.179C141.326 34.2624 141.449 34.2133 141.523 34.115L142.334 33.3041C142.432 33.2058 142.481 33.1075 142.481 32.9601Z"
+                        fill="#232425" />
+                    <path
+                        d="M161.984 39.6193C161.984 40.0861 161.788 40.5039 161.468 40.8479L159.453 42.8628C159.109 43.2069 158.667 43.3789 158.225 43.3789H149.894V26.9889H158.2C158.667 26.9889 159.109 27.1609 159.429 27.505L161.444 29.5199C161.788 29.8639 161.984 30.2817 161.984 30.7485V39.6193ZM159.723 39.3244L159.748 31.0434C159.748 30.9205 159.674 30.7977 159.601 30.6994L158.2 29.2988C158.102 29.2005 157.979 29.1513 157.856 29.1513H152.131V41.2165H157.831C157.979 41.2165 158.102 41.1673 158.175 41.069L159.576 39.6684C159.674 39.5701 159.723 39.4473 159.723 39.3244Z"
+                        fill="#232425" />
+                    <path
+                        d="M179.803 43.3789H177.518L175.847 38.9804H168.5L166.829 43.3789H164.592L170.736 26.9889H173.684L179.803 43.3789ZM175.036 36.9163L172.185 29.0039L169.286 36.9163H175.036Z"
+                        fill="#232425" />
+                    <path
+                        d="M199.03 43.3789H196.843V29.0776L192.199 43.3789H189.938L185.318 29.0776V43.3789H183.107V26.9889H186.768L191.068 40.3073L195.369 26.9889H199.03V43.3789Z"
+                        fill="#232425" />
+                    <path
+                        d="M209 42.1257C209 42.5925 208.853 42.9857 208.509 43.3297L203.717 48.1214L202.316 46.6962L206.395 42.6417C206.739 42.2977 206.911 41.8554 206.911 41.4131V30.2817C206.911 29.8148 206.739 29.3725 206.395 29.053L202.316 24.974L203.717 23.5488L208.509 28.3404C208.853 28.6844 209 29.0776 209 29.5445V42.1257Z"
+                        fill="#232425" />
+                </svg>
+            </div>
+
+            <!-- Section Title -->
+            <div class="section-title">GET TO KNOW ME</div>
+
+            <!-- Navigation List -->
+            <ul class="nav-list">
+                <li class="nav-item" data-target="introduction">
+                    <span class="nav-item-label">Introduction</span>
+                    <span class="nav-item-number">01</span>
+                </li>
+                <li class="nav-item" data-target="education">
+                    <span class="nav-item-label">Education</span>
+                    <span class="nav-item-number">02</span>
+                </li>
+                <li class="nav-item" data-target="work-experience">
+                    <span class="nav-item-label">Work experience</span>
+                    <span class="nav-item-number">03</span>
+                </li>
+            </ul>
+
+            <!-- Section Title -->
+            <div class="section-title">MY WORK</div>
+
+            <!-- Navigation List -->
+            <ul class="nav-list">
+                <li class="nav-item" data-target="by-sidde">
+                    <span class="nav-item-label">By SIDDE</span>
+                    <span class="nav-item-number">04</span>
+                </li>
+                <li class="nav-item" data-target="oil&vinegar">
+                    <span class="nav-item-label">Oil&Vinegar</span>
+                    <span class="nav-item-number">05</span>
+                </li>
+                <li class="nav-item" data-target="alpinestars">
+                    <span class="nav-item-label">Alpinestars</span>
+                    <span class="nav-item-number">06</span>
+                </li>
+                <li class="nav-item" data-target="lp-lumier">
+                    <span class="nav-item-label">LP Lumier</span>
+                    <span class="nav-item-number">07</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Bottom Container -->
+        <div class="bottom-container">
+            <div class="bottom-title">PHONENUMBER</div>
+            <a href="tel:3106123456789" class="bottom-text">+3106123456789
+        </div>
+        </div>
+
+        <!-- Bottom Container -->
+        <div class="bottom-container bottom-container-last">
+            <div class="bottom-title">MAIL</div>
+            <a href="mailto:floortje.warmerdam@icloud.com" class="bottom-text">floortje.warmerdam@icloud.com</a>
+        </div>
+    </aside>
+
+
+    <!-- Main content area -->
+    <main class="main-content">
+        <div class="hero-container">
+            <div class="hero-gradient">
+                <svg width="1160" height="669" viewBox="0 0 1160 669" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_f_677_3810)">
+                        <path
+                            d="M95.6965 155.907C-173.941 131.467 -329.213 214.141 -308.089 500.108C-283.943 827 -36.1283 663.363 253.567 731.776C543.262 800.189 779.852 827 1108.51 827C1437.18 827 1415.71 626.385 1415.71 262.834C1415.71 -100.717 817.413 184.421 628.264 218.026C439.115 251.632 365.334 180.348 95.6965 155.907Z"
+                            fill="#0B4AF1" />
+                    </g>
+                    <g filter="url(#filter1_f_677_3810)">
+                        <path
+                            d="M52.0742 246.684C-144.38 229.399 -324.47 355.44 -309.08 557.685C-291.487 788.872 324.718 752.079 493.806 704.546C662.893 657.012 826.51 721.3 1065.97 721.3C1305.43 721.3 1289.79 579.419 1289.79 322.305C1289.79 65.1916 853.877 266.849 716.066 290.616C578.254 314.383 248.529 263.969 52.0742 246.684Z"
+                            fill="#0634AF" />
+                    </g>
+                    <g filter="url(#filter2_f_677_3810)">
+                        <path
+                            d="M141.801 313.835C-17.4901 293.677 -111.55 332.761 -105.915 483.173C-99.475 655.111 235.508 693.263 374.736 664.375C513.963 635.488 755.886 694.448 950.764 703.411C1145.64 712.373 1137.75 606.673 1146.51 416.186C1155.27 225.698 793.641 358.785 680.677 371.235C567.713 383.685 301.091 333.994 141.801 313.835Z"
+                            fill="#08173F" />
+                    </g>
+                    <defs>
+                        <filter id="filter0_f_677_3810" x="-510" y="-120" width="2126" height="1147"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                            <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_677_3810" />
+                        </filter>
+                        <filter id="filter1_f_677_3810" x="-510" y="-7" width="2000" height="947"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                            <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_677_3810" />
+                        </filter>
+                        <filter id="filter2_f_677_3810" x="-256.155" y="158.922" width="1552.82" height="695.016"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                            <feGaussianBlur stdDeviation="75" result="effect1_foregroundBlur_677_3810" />
+                        </filter>
+                    </defs>
+                </svg>
+            </div>
+            <h1 class="hero-title">GET TO KNOW ME</h1>
+        </div>
+
+        <!-- Introduction Section -->
+        <section class="intro-section" id="introduction">
+            <div class="intro-title-container">
+                <span class="intro-title">Introduction</span><sup class="intro-number">01</sup>
+            </div>
+            <div class="intro-right-container">
+                <div class="intro-list-container">
+                    <div class="intro-list-item">
+                        <span class="intro-list-label">AGE:</span>
+                        <span class="intro-list-value">20</span>
+                    </div>
+                    <div class="intro-list-item">
+                        <span class="intro-list-label">LOCATION:</span>
+                        <span class="intro-list-value">SOUTH HOLLAND</span>
+                    </div>
+                    <div class="intro-list-item">
+                        <span class="intro-list-label">CURRENT JOB TITLE:</span>
+                        <span class="intro-list-value">VISUAL DESIGNER</span>
+                    </div>
+                    <div class="intro-list-item">
+                        <span class="intro-list-label">EXPERTISE:</span>
+                        <span class="intro-list-value">E-COMMERCE DESIGN</span>
+                    </div>
+                    <div class="intro-list-item">
+                        <span class="intro-list-label">LANGUAGE:</span>
+                        <span class="intro-list-value">DUTCH (NATVIVE) & ENGLISH</span>
+                    </div>
+                    <div class="intro-list-item">
+                        <span class="intro-list-label">SORFTWARE:</span>
+                        <span class="intro-list-value">FIGMA<br>ILLUSTRATOR<br>PHOTOSHOP<br>SHOPIFY</span>
+                    </div>
+                </div>
+                <div class="intro-image-container">
+                    <img src="Images/Profile-image.jpg" alt="Profile image">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Education Section -->
+        <section class="education-section" id="education">
+            <div class="intro-title-container">
+                <span class="intro-title">Education</span><sup class="intro-number">02</sup>
+            </div>
+            <div class="info-cards-container">
+                <div class="info-card">
+                    <div class="info-card-content">
+                        <div class="info-card-header">
+                            <div class="info-card-title">Mediavormgeving</div>
+                        </div>
+                        <div class="info-card-body">I completed this three-year program in two years through an
+                            accelerated learning track. I learned by doing practical projects, translating ideas and
+                            wishes into something concrete that actually works.<br>
+                            No two projects were the same, one time I'd be creating a brand book, designing a website
+                            the next or working on a story-driven video. This variety kept the work challenging and
+                            taught me to think flexibly, switching seamlessly between <span class="text-highlight">
+                                forms of communication </span>.</div>
+                    </div>
+                    <div class="info-card-list">
+                        <div class="info-card-list-item">
+                            <span class="info-card-list-label">SCHOOL:</span>
+                            <span class="info-card-list-value">NOVA COLLEGE, HAARLEM</span>
+                        </div>
+                        <div class="info-card-list-item">
+                            <span class="info-card-list-label">EDUCATION LEVEL:</span>
+                            <span class="info-card-list-value">MBO-4</span>
+                        </div>
+                        <div class="info-card-list-item">
+                            <span class="info-card-list-label">DURATION</span>
+                            <span class="info-card-list-value">SEP ‘21 - JUN ’23</span>
+                        </div>
+                        <div class="info-card-list-item">
+                            <span class="info-card-list-label">MINOR</span>
+                            <span class="info-card-list-value">ONLINE MARKETING</span>
+                        </div>
+                        <div class="info-card-list-item">
+                            <span class="info-card-list-label">FINAL GRADE</span>
+                            <span class="info-card-list-value">8</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-card-content">
+                        <div class="info-card-header">
+                            <div class="info-card-title">UI Design</div>
+                        </div>
+                        <div class="info-card-body">To deepen my knowledge in interface design, I completed the UI
+                            Design course. I learned to create <span class="text-highlight">user-friendly
+                                interfaces</span> with a focus on clear visual communication and systematic design
+                            thinking. The course covered everything from branding elements like color systems,
+                            typography, and visual consistency to the architecture of an interface. For my final
+                            assignment, I designed key screens for a banking application, applying the principle that
+                            every design decision should be intentional and cohesive.</div>
+                    </div>
+                    <div class="info-card-list">
+                        <div class="info-card-list-item">
+                            <span class="info-card-list-label">SCHOOL:</span>
+                            <span class="info-card-list-value">UX DESIGN INSTITUTE</span>
+                        </div>
+                        <div class="info-card-list-item">
+                            <span class="info-card-list-label">DURATION:</span>
+                            <span class="info-card-list-value">OCT’23 - MAR‘24</span>
+                        </div>
+                        <div class="info-card-list-item">
+                            <span class="info-card-list-label">THEORY EXAM:</span>
+                            <span class="info-card-list-value">9,9</span>
+                        </div>
+                        <div class="info-card-list-item">
+                            <span class="info-card-list-label">PRACTICAL EXAM:</span>
+                            <span class="info-card-list-value">9,6</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="info-cards-container">
+                <div class="info-card">
+                    <div class="info-card-content">
+                        <div class="info-card-header">
+                            <div class="info-card-title">Art Direction</div>
+                        </div>
+                        <div class="info-card-body">This Art Direction course taught me to develop visual concepts
+                            tailored to the right target audience, which can later be translated into powerful creative
+                            output. I liked that I could be working on a <span class="text-highlight">conceptual and
+                                strategic</span> level—using archetypes, defining brand principles, and uncovering how
+                            to tell a brand's story at a conceptual level. This approach ensures communication aligns
+                            with user needs and motivations, not just surface aesthetics.</div>
+                    </div>
+                    <div class="info-card-list">
+                        <div class="info-card-list-item">
+                            <span class="info-card-list-label">SCHOOL:</span>
+                            <span class="info-card-list-value">REDUCATIONS</span>
+                        </div>
+                        <div class="info-card-list-item">
+                            <span class="info-card-list-label">DURATION:</span>
+                            <span class="info-card-list-value">SEP‘24 - DEC‘24</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-card-content">
+                        <div class="info-card-header">
+                            <div class="info-card-title">Online Marketing</div>
+                        </div>
+                        <div class="info-card-body">At the moment I am pursuing this online marketing study to broaden
+                            my digital expertise beyond design. The program's comprehensive approach covers everything
+                            from CMS systems to customer journey mapping, giving me hands-on experience with the full
+                            marketing toolkit. What I value most is the freedom to shape assignments around my own
+                            interests, allowing me to discover how I want to position myself as a marketer while
+                            building both <span class="text-highlight"> strategic thinking and operational
+                                skills</span>.</div>
+                    </div>
+                    <div class="info-card-list">
+                        <div class="info-card-list-item">
+                            <span class="info-card-list-label">SCHOOL:</span>
+                            <span class="info-card-list-value">DE HAAGSE HOGESCHOOL</span>
+                        </div>
+                        <div class="info-card-list-item">
+                            <span class="info-card-list-label">EDUCATIONAL LEVEL:</span>
+                            <span class="info-card-list-value">HBO</span>
+                        </div>
+                        <div class="info-card-list-item">
+                            <span class="info-card-list-label">DURATION</span>
+                            <span class="info-card-list-value">SEP'25 - JUN'27</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Work Experience Section -->
+        <section class="education-section no-border" id="work-experience">
+            <div class="intro-title-container">
+                <span class="intro-title">Work experience</span><sup class="intro-number">03</sup>
+            </div>
+            <div class="info-cards-container">
+                <div class="info-card">
+                    <div class="info-card-content">
+                        <div class="info-card-header">
+                            <div class="info-card-title">Surf&Turf</div>
+                            <span class="info-card-label">SHOPIFY AGENCY</span>
+                        </div>
+                        <div class="info-card-body">Surf&Turf is a Shopify agency specializing in design, code &
+                            strategy that empowers aesthetics-forward merchants to sell their products on Shopify. As a
+                            creative designer within a small design team, I was responsible for creating fully custom
+                            webshop designs from the ground up, working with the client's brand guidelines as a starting
+                            point. At the agency, we strongly believed that design is key to having a converting
+                            webshop.
+                            <br>Responsibilities:
+                            <ul class="body-list">
+                                <li>Building advanced <span class="text-highlight">design systems</span> in Figma,
+                                    utilizing variables and components to ensure consistency and facilitate an efficient
+                                    design-to-development workflow</li>
+                                <li>Designing <span class="text-highlight">custom email flows</span> for implementation
+                                    in Klaviyo, ensuring seamless visual alignment between webshop and email marketing
+                                </li>
+                                <li>Close collaboration with developers to ensure smooth implementation, with the Figma
+                                    design system directly connecting to the <span class="text-highlight">development
+                                        workflow</span></li>
+                                <li>Actively contributing to the optimization of <span class="text-highlight">design
+                                        processes</span> through close communication and knowledge sharing within the
+                                    design team</li>
+                                <li><span class="text-highlight">Advising</span> clients on visuals, user experience,
+                                    and best practices within e-commerce on the Shopify platform</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="info-card-list">
+                        <div class="info-card-list-item">
+                            <span class="info-card-list-label">JOB TITLE:</span>
+                            <span class="info-card-list-value">CREATIVE DESIGNER</span>
+                        </div>
+                        <div class="info-card-list-item">
+                            <span class="info-card-list-label">DURATION:</span>
+                            <span class="info-card-list-value">APR ‘23 - AUG ‘24</span>
+                        </div>
+                        <div class="info-card-list-item">
+                            <span class="info-card-list-label">CUSTOM WEBSHOP DESIGNS:</span>
+                            <span class="info-card-list-value">16</span>
+                        </div>
+                        <div class="info-card-list-item">
+                            <span class="info-card-list-label">CUSTOM EMAIL DESIGNS:</span>
+                            <span class="info-card-list-value">3</span>
+                        </div>
+                        <div class="info-card-list-item">
+                            <span class="info-card-list-label">SOFTWARE:</span>
+                            <span class="info-card-list-value">FIGMA - PHOTOSHOP - SHOPIFY</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-card-content">
+                        <div class="info-card-header">
+                            <div class="info-card-title">Endeavour</div>
+                            <span class="info-card-label">DIGITAL AGENCY</span>
+                        </div>
+                        <div class="info-card-body">At Endeavour, an agency that forms the bridge between strategy,
+                            creativity, tech, and performance, I work as a visual designer specializing in e-commerce
+                            design within the Shopify platform. My role covers the complete design process of webshops,
+                            where I act as a link between clients and developers.
+                            <br>Responsibilities:
+                            <ul class="body-list">
+                                <li>Working on inspiration sessions with clients to identify<span
+                                        class="text-highlight"> UX and UI opportunities</span> and determine how brand
+                                    experience translates into conversion-focused visual communication.</li>
+                                <li>Designing<span class="text-highlight"> custom and theme </span>webshop experiences
+                                    using client branding as a foundation, ensuring alignment with business objectives
+                                    and user needs</li>
+                                <li>Managing <span class="text-highlight"> design systems </span>in Figma to ensure
+                                    consistency, scalability, and efficient collaboration.</li>
+                                <li>Collaborating closely with developers throughout the process to ensure <span
+                                        class="text-highlight">smooth handover</span> and technically optimal
+                                    implementation</li>
+                                <li>Working on<span class="text-highlight"> branding projects</span> including logos,
+                                    color palettes, font pairings, and key visuals</li>
+                                <li>Co-organizing<span class="text-highlight"> internal inspiration sessions</span> with
+                                    the design team</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="info-card-list">
+                        <div class="info-card-list-item">
+                            <span class="info-card-list-label">JOB TITLE:</span>
+                            <span class="info-card-list-value">VISUAL DESIGNER</span>
+                        </div>
+                        <div class="info-card-list-item">
+                            <span class="info-card-list-label">DURATION:</span>
+                            <span class="info-card-list-value">SEP ‘24 - PRESENT</span>
+                        </div>
+                        <div class="info-card-list-item">
+                            <span class="info-card-list-label">CUSTOM WEBSHOP DESIGNS:</span>
+                            <span class="info-card-list-value">8</span>
+                        </div>
+                        <div class="info-card-list-item">
+                            <span class="info-card-list-label">THEME WEBSHOP DESIGNS:</span>
+                            <span class="info-card-list-value">3</span>
+                        </div>
+                        <div class="info-card-list-item">
+                            <span class="info-card-list-label">SOFTWARE</span>
+                            <span class="info-card-list-value">FIGMA - PHOTOSHOP - ILLUSTRATOR- SHOPIFY</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-container">
+                <div class="testimonial-circle">W</div>
+                <div class="testimonial-card">
+                    <span class="testimonial-label">(COLLEGUE) ART DIRECTOR</span>
+                    <div class="testimonial-card-content">
+                        <div class="testimonial-title">WOUTER</div>
+                        <div class="testimonial-body">She truly make a difference when it comes to ensuring efficient
+                            processes, being a good critical voice within the team, and striving for an extra level of
+                            cohesion, quality and motivation within the team.”</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-container-second">
+                <div class="testimonial-card">
+                    <span class="testimonial-label">(COLLEGUE) VISUAL DESIGNER</span>
+                    <div class="testimonial-card-content">
+                        <div class="testimonial-title">MELISSA</div>
+                        <div class="testimonial-body">“She knows exactly what's technically possible and where the
+                            boundaries lie, allowing her to pivot quickly and arrive at effective solutions. At the same
+                            time, she never loses sight of the visual aspect and ensures the quality remains high.”
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-circle">M</div>
+            </div>
+        </section>
+
+
+        <!-- My Work Section -->
+        <section class="my-work-section">
+            <svg class="my-work-gradient" viewBox="0 0 1440 1147" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_f_688_10380)">
+                    <path
+                        d="M373.696 275.907C104.059 251.467 -51.2129 334.141 -30.0893 620.108C-5.9428 947 241.872 783.363 531.567 851.776C821.262 920.189 1057.85 947 1386.51 947C1715.18 947 1693.71 746.385 1693.71 382.834C1693.71 19.2828 1095.41 304.421 906.264 338.026C717.115 371.632 643.334 300.348 373.696 275.907Z"
+                        fill="#0B4AF1" />
+                </g>
+                <g filter="url(#filter1_f_688_10380)">
+                    <path
+                        d="M330.074 366.684C133.62 349.399 -46.4704 475.44 -31.08 677.685C-13.4872 908.872 602.718 872.079 771.806 824.546C940.893 777.012 1104.51 841.3 1343.97 841.3C1583.43 841.3 1567.79 699.419 1567.79 442.305C1567.79 185.192 1131.88 386.849 994.066 410.616C856.254 434.383 526.529 383.969 330.074 366.684Z"
+                        fill="#0634AF" />
+                </g>
+                <g filter="url(#filter2_f_688_10380)">
+                    <path
+                        d="M419.801 433.835C260.51 413.677 166.45 452.761 172.085 603.173C178.525 775.111 513.508 813.263 652.736 784.375C791.963 755.488 1033.89 814.448 1228.76 823.411C1423.64 832.373 1415.75 726.673 1424.51 536.186C1433.27 345.698 1071.64 478.785 958.677 491.235C845.713 503.685 579.091 453.994 419.801 433.835Z"
+                        fill="#08173F" />
+                </g>
+                <defs>
+                    <filter id="filter0_f_688_10380" x="-232" y="0" width="2126" height="1147"
+                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                        <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_688_10380" />
+                    </filter>
+                    <filter id="filter1_f_688_10380" x="-232" y="113" width="2000" height="947"
+                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                        <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_688_10380" />
+                    </filter>
+                    <filter id="filter2_f_688_10380" x="21.8447" y="278.922" width="1552.82" height="695.016"
+                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                        <feGaussianBlur stdDeviation="75" result="effect1_foregroundBlur_688_10380" />
+                    </filter>
+                </defs>
+            </svg>
+            <div class="my-work-content">
+                <h2 class="my-work-title">MY WORK</h2>
+            </div>
+        </section>
+
+
+        <!-- Case Section -->
+        <section class="case-section" id="by-sidde">
+            <div class="case-container">
+                <span class="case-label">SHOPIFY WEBSHOP DESIGN</span>
+                <div class="intro-title-container">
+                    <span class="intro-title">By SIDDE</span><sup class="intro-number">04</sup>
+                </div>
+                <div class="case-info-row">
+                    <p class="case-body">By SIDDE, a dutch brand that takes it’s inspiration form Danish design, there
+                        brandname litterlay means ‘to sit’. There sofas look modern, minimalist jet unique and with
+                        those key principles I went ahead and started designing there webshop.</p>
+                    <div class="case-meta">
+                        <div class="case-year">
+                            <h3 class="case-year-title">Year</h3>
+                            <p class="case-year-value">(2024)</p>
+                        </div>
+                        <div class="case-divider"></div>
+                        <div class="case-year">
+                            <h3 class="case-year-title">Deliverables</h3>
+                            <p class="case-year-value">E-COMMERCE DESIGN<br>DESIGN SYSTEM</p>
+                        </div>
+                        <div class="case-divider"></div>
+                        <div class="case-year">
+                            <h3 class="case-year-title">Software</h3>
+                            <p class="case-year-value">FIGMA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="case-learning">
+                    <h3 class="case-learning-title">Learning</h3>
+                    <p class="case-learning-body">This project taught me to really think about the diversity within a
+                        single product from. Each type of sofa had multiple sets, colors, and configurations. The
+                        challenge was making all those options clear and navigable for the customer without overwhelming
+                        them. It pushed me to consider how information architecture and visual hierarchy work together.
+                    </p>
+                </div>
+                <div class="take-a-look"><a href="https://bysidde.com/" target="_blank">(TAKE A LOOK)</a></div>
+                <div class="case-image-container">
+                    <img src="Images/BySidde-Hero.jpg" alt="Case header image">
+                </div>
+                <div class="case-image-container">
+                    <img src="Images/BySidde-Productpage.jpg" alt="Case header image">
+                </div>
+                <div class="case-image-container">
+                    <img src="Images/BySidde-Productcard.jpg" alt="Case header image">
+                </div>
+                <div class="case-image-container">
+                    <img src="Images/BySidde-Phonescreen.jpg" alt="Case header image">
+                </div>
+            </div>
+        </section>
+
+        <section class="case-section" id="oil&vinegar">
+            <div class="case-container">
+                <span class="case-label">SHOPIFY WEBSHOP DESIGN</span>
+                <div class="intro-title-container">
+                    <span class="intro-title">Oil&Vinegar</span><sup class="intro-number">05</sup>
+                </div>
+                <div class="case-info-row">
+                    <p class="case-body">Oil & Vinegar is an international franchise that started in the Netherlands,
+                        specializing in premium Mediterranean products.They have expanded globally with stores across
+                        Europe, the United States, Japan, and other countries, offering carefully selected products
+                        sourced from traditional family businesses.</p>
+                    <div class="case-meta">
+                        <div class="case-year">
+                            <h3 class="case-year-title">Year</h3>
+                            <p class="case-year-value">(2024)</p>
+                        </div>
+                        <div class="case-divider"></div>
+                        <div class="case-year">
+                            <h3 class="case-year-title">Deliverables</h3>
+                            <p class="case-year-value">E-COMMERCE DESIGN</p>
+                        </div>
+                        <div class="case-divider"></div>
+                        <div class="case-year">
+                            <h3 class="case-year-title">Software</h3>
+                            <p class="case-year-value">FIGMA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="case-learning">
+                    <h3 class="case-learning-title">Learning</h3>
+                    <p class="case-learning-body">Partnering with a brand designer who established the homepage's visual
+                        identity, I extended their design language across the other pages on the webshop.This
+                        collaboration thought me the importance of cross-disciplinary dialogue in translating brand
+                        principles into a design that work for conversion driven platforms.</p>
+                </div>
+                <div class="take-a-look"><a href="https://bysidde.com/" target="_blank">(TAKE A LOOK)</a></div>
+                <div class="case-image-container">
+                    <img src="Images/Oil&Vinegar-Hero.jpg" alt="Case header image">
+                </div>
+                <div class="case-image-container">
+                    <img src="Images/Oil&Vinegar-Productpage.jpg" alt="Case header image">
+                </div>
+                <div class="case-image-container">
+                    <img src="Images/Oil&Vinegar-Recepies.jpg" alt="Case header image">
+                </div>
+                <div class="case-image-container">
+                    <img src="Images/Oil&Vinegar-Phonescreens.jpg" alt="Case header image">
+                </div>
+                <div class="case-image-container">
+                    <img src="Images/Oil&Vinegar-Navigation.jpg" alt="Case header image">
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="case-section" id="alpinestars">
+            <div class="case-container">
+                <span class="case-label">SHOPIFY WEBSHOP DESIGN</span>
+                <div class="intro-title-container">
+                    <span class="intro-title">Alpinestars</span><sup class="intro-number">06</sup>
+                </div>
+                <div class="case-info-row">
+                    <p class="case-body">Alpinestars is a leading Italian manufacturer of high-performance protective
+                        gear and apparel for motorcycling, auto racing, and action sports. Our project for Alipenstars
+                        began with designing a webshop for there European market. Once going live, the results were
+                        promising we saw the design performed well, customer engagement was strong. In the US the team
+                        had taking note and decided that the right move was to integrated the same design for their
+                        market too. It's one thing to design for once scale, but to realize the potential of bringing to
+                        a higher level was a bonus in this project.</p>
+                    <div class="case-meta">
+                        <div class="case-year">
+                            <h3 class="case-year-title">Year</h3>
+                            <p class="case-year-value">(2024-2025)</p>
+                        </div>
+                        <div class="case-divider"></div>
+                        <div class="case-year">
+                            <h3 class="case-year-title">Deliverables</h3>
+                            <p class="case-year-value">E-COMMERCE DESIGN<br>EMAIIL DESIGN<br>ICONS</p>
+                        </div>
+                        <div class="case-divider"></div>
+                        <div class="case-year">
+                            <h3 class="case-year-title">Software</h3>
+                            <p class="case-year-value">FIGMA<br>ILLUSTRATOR</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="case-learning">
+                    <h3 class="case-learning-title">Learning</h3>
+                    <p class="case-learning-body">Partnering with a brand designer who established the homepage's visual
+                        identity, I extended their design language across the other pages on the webshop.This
+                        collaboration thought me the importance of cross-disciplinary dialogue in translating brand
+                        principles into a design that work for conversion driven platforms.</p>
+                </div>
+                <div class="take-a-look"><a href=https://www.alpinestars.com/ target="_blank">(TAKE A LOOK)</a></div>
+                <div class="case-image-container">
+                    <img src="Images/Alpinestars-Hero.jpg" alt="Case header image">
+                </div>
+                <div class="case-image-container">
+                    <img src="Images/Alpinestars-Productpage.jpg" alt="Case header image">
+                </div>
+                <div class="case-image-container-portrait">
+                    <img src="Images/Alpinestars-TechAir.jpg" alt="Case header image">
+                </div>
+                <div class="case-image-container">
+                    <img src="Images/Alpinestars-Phonescreens.jpg" alt="Case header image">
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="case-section" id="lp-lumier">
+            <div class="case-container">
+                <span class="case-label">GRAPHIC DESIGN</span>
+                <div class="intro-title-container">
+                    <span class="intro-title">LP Lumière</span><sup class="intro-number">06</sup>
+                </div>
+                <div class="case-info-row">
+                    <p class="case-body">This project came for my passion of collecting LPs. All covers inspire me in
+                        one way of an other. To prosue this project I first developed a fictional band with a defined
+                        music genre. This narrative foundation informed every design decision throughout the project.
+                    </p>
+                    <div class="case-meta">
+                        <div class="case-year">
+                            <h3 class="case-year-title">Year</h3>
+                            <p class="case-year-value">(2024)</p>
+                        </div>
+                        <div class="case-divider"></div>
+                        <div class="case-year">
+                            <h3 class="case-year-title">Deliverables</h3>
+                            <p class="case-year-value">MOCKUPS</p>
+                        </div>
+                        <div class="case-divider"></div>
+                        <div class="case-year">
+                            <h3 class="case-year-title">Software</h3>
+                            <p class="case-year-value">PHOTOSHOP<br>ILLUSTRATOR</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="case-learning">
+                    <h3 class="case-learning-title">Story of the Band</h3>
+                    <p class="case-learning-body">The album Lumière by Zéro Cinq was written almost entirely during the
+                        night hours. With their folk/soft pop style, the band brings the songs to life, with acoustic
+                        sounds present in every track. This album is about finding light in dark time, hence the name
+                        Lumière, French for 'light'. The inspiration came from the nightlife of Paris, where it never
+                        gets completely dark.</p>
+                </div>
+                <div style="margin-bottom: 48px;" class="case-learning">
+                    <h3 class="case-learning-title">Learning</h3>
+                    <p class="case-learning-body">This project gave me the freedom to really explore what I could
+                        create, with only the product format as a limit. It was a refreshing change that boosted my
+                        creative process.</p>
+                </div>
+                <div class="case-image-container">
+                    <img src="Images/LP-Front.jpg" alt="Case header image">
+                </div>
+                <div class="case-image-container">
+                    <img src="Images/LP-Single.jpg" alt="Case header image">
+                </div>
+                <div class="case-image-container">
+                    <img src="Images/LP-Back.jpg" alt="Case header image">
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+
+
+        <!-- Mobile Top Contact Bar -->
+        <div class="mobile-contact-bar-top mobile-only">
+            <svg width="209" height="49" viewBox="0 0 209 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M6.68375 23.1474L5.28311 24.5726L0.491453 19.781C0.147436 19.4369 0 19.0438 0 18.5769V5.99572C0 5.52884 0.147436 5.13568 0.491453 4.79166L5.28311 0L6.68375 1.42521L2.6047 5.47969C2.26068 5.82371 2.08867 6.26602 2.08867 6.70833V17.8397C2.08867 18.3066 2.26068 18.7489 2.6047 19.0684L6.68375 23.1474Z"
+                    fill="#232425" />
+                <path
+                    d="M20.6026 12.704H12.2233V19.8301H9.98724V3.44017H20.6026V5.60256H12.2233V10.5417H20.6026V12.704Z"
+                    fill="#232425" />
+                <path d="M35.1805 19.8301H24.5897V3.44017H26.8258V17.6677H35.1805V19.8301Z" fill="#232425" />
+                <path
+                    d="M51.1089 16.0705C51.1089 16.5374 50.9124 16.9551 50.5929 17.2991L48.578 19.3141C48.2339 19.6581 47.7916 19.8301 47.3493 19.8301H41.2799C40.813 19.8301 40.3953 19.6581 40.0513 19.3141L38.0363 17.2991C37.6923 16.9551 37.5203 16.5374 37.5203 16.0705V7.19978C37.5203 6.7329 37.6923 6.31516 38.0363 5.97115L40.0513 3.95619C40.3953 3.61218 40.813 3.44017 41.2799 3.44017H47.3248C47.7916 3.44017 48.2339 3.61218 48.5534 3.95619L50.5683 5.97115C50.9124 6.31516 51.1089 6.7329 51.1089 7.19978V16.0705ZM48.8483 15.7756L48.8728 7.49465C48.8728 7.37179 48.7991 7.24892 48.7254 7.15063L47.3248 5.74999C47.2265 5.6517 47.1036 5.60256 46.9807 5.60256H41.6485C41.501 5.60256 41.4028 5.6517 41.3045 5.74999L39.9038 7.15063C39.8055 7.24892 39.7564 7.37179 39.7564 7.49465V15.7756C39.7564 15.8985 39.8055 16.0214 39.9038 16.1196L41.3045 17.5203C41.4028 17.6186 41.501 17.6677 41.6485 17.6677H46.9562C47.1036 17.6677 47.2265 17.6186 47.3002 17.5203L48.7008 16.1196C48.7991 16.0214 48.8483 15.8985 48.8483 15.7756Z"
+                    fill="#232425" />
+                <path
+                    d="M68.687 16.0705C68.687 16.5374 68.4904 16.9551 68.171 17.2991L66.156 19.3141C65.812 19.6581 65.3697 19.8301 64.9274 19.8301H58.858C58.3911 19.8301 57.9733 19.6581 57.6293 19.3141L55.6144 17.2991C55.2704 16.9551 55.0983 16.5374 55.0983 16.0705V7.19978C55.0983 6.7329 55.2704 6.31516 55.6144 5.97115L57.6293 3.95619C57.9733 3.61218 58.3911 3.44017 58.858 3.44017H64.9028C65.3697 3.44017 65.812 3.61218 66.1315 3.95619L68.1464 5.97115C68.4904 6.31516 68.687 6.7329 68.687 7.19978V16.0705ZM66.4263 15.7756L66.4509 7.49465C66.4509 7.37179 66.3772 7.24892 66.3035 7.15063L64.9028 5.74999C64.8045 5.6517 64.6817 5.60256 64.5588 5.60256H59.2266C59.0791 5.60256 58.9808 5.6517 58.8825 5.74999L57.4819 7.15063C57.3836 7.24892 57.3345 7.37179 57.3345 7.49465V15.7756C57.3345 15.8985 57.3836 16.0214 57.4819 16.1196L58.8825 17.5203C58.9808 17.6186 59.0791 17.6677 59.2266 17.6677H64.5342C64.6817 17.6677 64.8045 17.6186 64.8783 17.5203L66.2789 16.1196C66.3772 16.0214 66.4263 15.8985 66.4263 15.7756Z"
+                    fill="#232425" />
+                <path
+                    d="M86.6337 19.8301H83.9307L79.2619 13.0972C79.139 12.9498 78.9916 12.8761 78.8441 12.8761H75.6006V19.8301H73.3644V3.44017H82.2843C82.7512 3.44017 83.1443 3.61218 83.4638 3.93162L84.9136 5.38141C85.2576 5.72542 85.4542 6.11858 85.4542 6.61004V9.70619C85.4542 10.1976 85.2576 10.6154 84.9381 10.9348L83.4884 12.3846C83.1689 12.704 82.7512 12.8761 82.3089 12.8761H81.6946L86.6337 19.8301ZM83.1935 9.41131L83.2181 6.90491C83.2181 6.75747 83.1443 6.63461 83.0706 6.56089L82.2597 5.74999C82.1614 5.6517 82.0632 5.60256 81.9157 5.60256H75.6006V10.7137H81.8911C82.0386 10.7137 82.1614 10.6645 82.2352 10.5662L83.0461 9.75533C83.1443 9.65704 83.1935 9.55875 83.1935 9.41131Z"
+                    fill="#232425" />
+                <path d="M100.608 5.60256H95.6931V19.8301H93.457V5.60256H88.5425V3.44017H100.608V5.60256Z"
+                    fill="#232425" />
+                <path
+                    d="M112.121 16.0705C112.121 16.5374 111.949 16.9551 111.605 17.2991L109.59 19.3141C109.246 19.6581 108.828 19.8301 108.361 19.8301H104.848C104.381 19.8301 103.963 19.6581 103.619 19.3141L101.309 17.0043L102.833 15.4808L104.872 17.5203C104.97 17.6186 105.069 17.6677 105.216 17.6677H107.993C108.14 17.6677 108.239 17.6186 108.337 17.5203L109.737 16.1196C109.836 16.0214 109.885 15.8985 109.885 15.7756V5.60256H105.044V3.44017H112.121V16.0705Z"
+                    fill="#232425" />
+                <path
+                    d="M127.715 19.8301H117.124V3.44017H127.715V5.60256H119.36V10.5417H127.715V12.704H119.36V17.6677H127.715V19.8301Z"
+                    fill="#232425" />
+                <path
+                    d="M58.7941 26.9889L55.2802 43.3789H52.2086L49.3336 29.3233L46.4586 43.3789H43.4116L39.9223 26.9889H42.2076L45.0089 41.1182L47.8347 26.9889H51.0046L53.7813 41.1182L56.6317 26.9889H58.7941Z"
+                    fill="#232425" />
+                <path
+                    d="M75.5824 43.3789H73.2971L71.6262 38.9804H64.279L62.608 43.3789H60.3719L66.5151 26.9889H69.4638L75.5824 43.3789ZM70.8153 36.9163L67.9649 29.0039L65.0653 36.9163H70.8153Z"
+                    fill="#232425" />
+                <path
+                    d="M92.1555 43.3789H89.4525L84.7837 36.646C84.6608 36.4985 84.5134 36.4248 84.3659 36.4248H81.1224V43.3789H78.8862V26.9889H87.8061C88.273 26.9889 88.6662 27.1609 88.9856 27.4804L90.4354 28.9302C90.7794 29.2742 90.976 29.6673 90.976 30.1588V33.2549C90.976 33.7464 90.7794 34.1641 90.4599 34.4836L89.0102 35.9334C88.6907 36.2528 88.273 36.4248 87.8307 36.4248H87.2164L92.1555 43.3789ZM88.7153 32.9601L88.7399 30.4537C88.7399 30.3062 88.6662 30.1834 88.5924 30.1097L87.7815 29.2988C87.6832 29.2005 87.585 29.1513 87.4375 29.1513H81.1224V34.2624H87.4129C87.5604 34.2624 87.6832 34.2133 87.757 34.115L88.5679 33.3041C88.6661 33.2058 88.7153 33.1075 88.7153 32.9601Z"
+                    fill="#232425" />
+                <path
+                    d="M112.051 43.3789H109.864V29.0776L105.22 43.3789H102.96L98.3399 29.0776V43.3789H96.1284V26.9889H99.7897L104.09 40.3073L108.39 26.9889H112.051V43.3789Z"
+                    fill="#232425" />
+                <path
+                    d="M127.993 43.3789H117.402V26.9889H127.993V29.1513H119.638V34.0904H127.993V36.2528H119.638V41.2165H127.993V43.3789Z"
+                    fill="#232425" />
+                <path
+                    d="M145.922 43.3789H143.219L138.55 36.646C138.427 36.4985 138.279 36.4248 138.132 36.4248H134.888V43.3789H132.652V26.9889H141.572C142.039 26.9889 142.432 27.1609 142.752 27.4804L144.201 28.9302C144.545 29.2742 144.742 29.6673 144.742 30.1588V33.2549C144.742 33.7464 144.545 34.1641 144.226 34.4836L142.776 35.9334C142.457 36.2528 142.039 36.4248 141.597 36.4248H140.982L145.922 43.3789ZM142.481 32.9601L142.506 30.4537C142.506 30.3062 142.432 30.1834 142.358 30.1097L141.548 29.2988C141.449 29.2005 141.351 29.1513 141.204 29.1513H134.888V34.2624H141.179C141.326 34.2624 141.449 34.2133 141.523 34.115L142.334 33.3041C142.432 33.2058 142.481 33.1075 142.481 32.9601Z"
+                    fill="#232425" />
+                <path
+                    d="M161.984 39.6193C161.984 40.0861 161.788 40.5039 161.468 40.8479L159.453 42.8628C159.109 43.2069 158.667 43.3789 158.225 43.3789H149.894V26.9889H158.2C158.667 26.9889 159.109 27.1609 159.429 27.505L161.444 29.5199C161.788 29.8639 161.984 30.2817 161.984 30.7485V39.6193ZM159.723 39.3244L159.748 31.0434C159.748 30.9205 159.674 30.7977 159.601 30.6994L158.2 29.2988C158.102 29.2005 157.979 29.1513 157.856 29.1513H152.131V41.2165H157.831C157.979 41.2165 158.102 41.1673 158.175 41.069L159.576 39.6684C159.674 39.5701 159.723 39.4473 159.723 39.3244Z"
+                    fill="#232425" />
+                <path
+                    d="M179.803 43.3789H177.518L175.847 38.9804H168.5L166.829 43.3789H164.592L170.736 26.9889H173.684L179.803 43.3789ZM175.036 36.9163L172.185 29.0039L169.286 36.9163H175.036Z"
+                    fill="#232425" />
+                <path
+                    d="M199.03 43.3789H196.843V29.0776L192.199 43.3789H189.938L185.318 29.0776V43.3789H183.107V26.9889H186.768L191.068 40.3073L195.369 26.9889H199.03V43.3789Z"
+                    fill="#232425" />
+                <path
+                    d="M209 42.1257C209 42.5925 208.853 42.9857 208.509 43.3297L203.717 48.1214L202.316 46.6962L206.395 42.6417C206.739 42.2977 206.911 41.8554 206.911 41.4131V30.2817C206.911 29.8148 206.739 29.3725 206.395 29.053L202.316 24.974L203.717 23.5488L208.509 28.3404C208.853 28.6844 209 29.0776 209 29.5445V42.1257Z"
+                    fill="#232425" />
+            </svg>
+        </div>
+
+        <!-- Mobile main section -->
+        <section class="mobile-only final-section-mobile">
+            <div class="mobile-gradient">
+                <svg width="1160" height="669" viewBox="0 0 1160 669" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_f_mobile)">
+                        <path
+                            d="M95.6965 155.907C-173.941 131.467 -329.213 214.141 -308.089 500.108C-283.943 827 -36.1283 663.363 253.567 731.776C543.262 800.189 779.852 827 1108.51 827C1437.18 827 1415.71 626.385 1415.71 262.834C1415.71 -100.717 817.413 184.421 628.264 218.026C439.115 251.632 365.334 180.348 95.6965 155.907Z"
+                            fill="#0B4AF1" />
+                    </g>
+                    <g filter="url(#filter1_f_mobile)">
+                        <path
+                            d="M52.0742 246.684C-144.38 229.399 -324.47 355.44 -309.08 557.685C-291.487 788.872 324.718 752.079 493.806 704.546C662.893 657.012 826.51 721.3 1065.97 721.3C1305.43 721.3 1289.79 579.419 1289.79 322.305C1289.79 65.1916 853.877 266.849 716.066 290.616C578.254 314.383 248.529 263.969 52.0742 246.684Z"
+                            fill="#0634AF" />
+                    </g>
+                    <g filter="url(#filter2_f_mobile)">
+                        <path
+                            d="M141.801 313.835C-17.4901 293.677 -111.55 332.761 -105.915 483.173C-99.475 655.111 235.508 693.263 374.736 664.375C513.963 635.488 755.886 694.448 950.764 703.411C1145.64 712.373 1137.75 606.673 1146.51 416.186C1155.27 225.698 793.641 358.785 680.677 371.235C567.713 383.685 301.091 333.994 141.801 313.835Z"
+                            fill="#08173F" />
+                    </g>
+                    <defs>
+                        <filter id="filter0_f_mobile" x="-510" y="-120" width="2126" height="1147"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                            <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_mobile" />
+                        </filter>
+                        <filter id="filter1_f_mobile" x="-510" y="-7" width="2000" height="947"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                            <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_mobile" />
+                        </filter>
+                        <filter id="filter2_f_mobile" x="-256.155" y="158.922" width="1552.82" height="695.016"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                            <feGaussianBlur stdDeviation="75" result="effect1_foregroundBlur_mobile" />
+                        </filter>
+                    </defs>
+                </svg>
+            </div>
+            <div class="intro-title-container-final">
+                <span class="intro-title-final">MY PORTFOLIO LOVES BIG SCREENS!</span>
+                <span class="case-body">Grab a coffee and switch to desktop to see everything I've been working
+                    on.</span>
+            </div>
+        </section>
+
+
+        <!-- Mobile Contact Bar -->
+        <div class="mobile-contact-bar mobile-only">
+            <div class="mobile-contact-item">
+                <span class="mobile-contact-label">Phone</span>
+                <a href="tel:+31612345678" class="mobile-contact-value">+31 6 1234 5678</a>
+            </div>
+            <div class="mobile-contact-item">
+                <span class="mobile-contact-label">Email</span>
+                <a href="mailto:floortje.warmerdam@icloud.com"
+                    class="mobile-contact-value">floortje.warmerdam@icloud.com</a>
+            </div>
+        </div>
+
+    </main>
+
+    <script>
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.addEventListener('click', () => {
+                document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
+                item.classList.add('active');
+
+                // Scroll to target section if data-target exists
+                const targetId = item.getAttribute('data-target');
+                if (targetId) {
+                    const targetSection = document.getElementById(targetId);
+                    if (targetSection) {
+                        targetSection.scrollIntoView({ behavior: 'smooth' });
+                    }
+                }
+            });
+        });
+
+        // Intersection Observer for automatic active state on scroll
+        const sections = document.querySelectorAll('section[id]');
+        const navItems = document.querySelectorAll('.nav-item[data-target]');
+
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px 0px -90% 0px',
+            threshold: 0
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const sectionId = entry.target.getAttribute('id');
+
+                    // Remove active class from all nav items
+                    document.querySelectorAll('.nav-item').forEach(item => item.classList.remove('active'));
+
+                    // Add active class to corresponding nav item
+                    const activeNavItem = document.querySelector(`.nav-item[data-target="${sectionId}"]`);
+                    if (activeNavItem) {
+                        activeNavItem.classList.add('active');
+                    }
+                }
+            });
+        }, observerOptions);
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+</body>
+
+</html>
