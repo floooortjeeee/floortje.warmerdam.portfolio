@@ -33,7 +33,7 @@
 
  @font-face {
      font-family: 'Booton';
-     src: url('fonts/Booton-Regular.otf') format('opentype');
+     src: url('fonts/Booton-Regular.woff') format('opentype');
      font-weight: 400;
      font-style: normal;
      font-display: swap;
@@ -41,7 +41,7 @@
 
  @font-face {
      font-family: 'Booton';
-     src: url('fonts/Booton-Light.otf') format('opentype');
+     src: url('fonts/Booton-Light.woff') format('opentype');
      font-weight: 300;
      font-style: normal;
      font-display: swap;
